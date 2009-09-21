@@ -1,3 +1,4 @@
 *.pyc
 /build
+/dist
 /yuicompressor.egg-info
