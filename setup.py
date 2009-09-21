@@ -20,5 +20,10 @@ setup(
     },
     include_package_data=True,
     zip_safe=False,
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Environment :: Web Environment',
+        'License :: OSI Approved :: BSD License',
+        'Topic :: Internet :: WWW/HTTP :: Site Management',
+    ]
 )
-
