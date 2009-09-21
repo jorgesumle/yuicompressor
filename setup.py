@@ -3,8 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="yuicompressor",
     description="YUI Compressor packaged for Python",
-    long_description="YUI Compressor archive bundled inside an egg, "
-                     "with an entry point provided to ease the invocation.",
+    long_description=open('README').read(),
     version="2.4.2",
     url="",
     license='BSD',
