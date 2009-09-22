@@ -18,7 +18,7 @@ First, create the ``buildout.cfg`` file::
     recipe = zc.recipe.egg
     eggs = yuicompressor
 
-Next, download ``buildout`` boostrap script and run the ``buildout``
+Next, download ``buildout`` bootstrap script and run the ``buildout``
 itself::
 
     $ wget http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py
