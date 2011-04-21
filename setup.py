@@ -5,7 +5,7 @@ setup(
     description="YUI Compressor packaged for Python",
     long_description=open('README').read(),
     author='Adomas Paltanavicius',
-    author_email='adomas@shrubberysoft.com',
+    author_email='adomas.paltanavicius@gmail.com',
     version="2.4.2",
     url="http://pypi.python.org/pypi/yuicompressor",
     license='BSD',
