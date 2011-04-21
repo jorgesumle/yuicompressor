@@ -30,7 +30,7 @@ itself::
     $ bin/buildout
     Installing yuicompressor.
     Getting distribution for 'yuicompressor'.
-    Got yuicompressor 2.4.2.
+    Got yuicompressor 2.4.6.
     Generated script 'bin/yuicompressor'.
 
 The ``yuicompressor`` script is ready to use::
