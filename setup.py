@@ -6,7 +6,7 @@ setup(
     long_description=open('README').read(),
     author='Adomas Paltanavicius',
     author_email='adomas.paltanavicius@gmail.com',
-    version="2.4.6",
+    version="2.4.6.1",
     url="http://pypi.python.org/pypi/yuicompressor",
     license='BSD',
     packages=find_packages(),
