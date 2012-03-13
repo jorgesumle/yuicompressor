@@ -1,4 +1,8 @@
-from setuptools import setup, find_packages
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
+
 
 setup(
     name="yuicompressor",
@@ -9,13 +13,14 @@ setup(
     version="2.4.6.1",
     url="http://pypi.python.org/pypi/yuicompressor",
     license='BSD',
-    packages=find_packages(),
+    packages=['yuicompressor'],
     install_requires=[],
     entry_points={
         'console_scripts': [
             "yuicompressor = yuicompressor:main"
         ]
     },
+    #scripts=['bin/yuicompressor_run.py'],
     package_data={
         '': ["*.jar"]
     },
