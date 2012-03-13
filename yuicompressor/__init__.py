@@ -1,5 +1,6 @@
 import sys
 import os
+import subprocess
 
 __version__ = '2.4.6'
 
@@ -11,5 +12,5 @@ def get_jar_filename():
 
 
 def main():
-    name = sys.argv[0]
-    os.execlp("java", name, "-jar", get_jar_filename(), *sys.argv[1:])
+    cmd_args = ["java", "-jar", get_jar_filename()] + sys.argv[1:]
+    subprocess.call(cmd_args, shell=True)
