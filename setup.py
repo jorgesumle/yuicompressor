@@ -14,22 +14,22 @@ setup(
     url="http://pypi.python.org/pypi/yuicompressor",
     license='BSD',
     packages=['yuicompressor'],
-    install_requires=[],
-    entry_points={
-        'console_scripts': [
-            "yuicompressor = yuicompressor:main"
-        ]
-    },
-    #scripts=['bin/yuicompressor_run.py'],
     package_data={
         '': ["*.jar"]
     },
-    include_package_data=True,
-    zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'License :: OSI Approved :: BSD License',
         'Topic :: Internet :: WWW/HTTP :: Site Management',
-    ]
+    ],
+
+    entry_points={
+        'console_scripts': [
+            "yuicompressor = yuicompressor:main"
+        ]
+    },
+    scripts=['bin/yuicompress.py'],
+    include_package_data=True,
+    zip_safe=False,
 )
