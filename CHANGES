@@ -1,9 +1,10 @@
 Changelog
 =========
 
-2.x.x
--------
+2.4.7
+-----
 
+- Updated ``yuicompressor.jar`` to 2.4.7
 - ``yuicompressor`` does not require setuptools anymore: it's also installable
   with pure distutils. However, the executable script in the pure distutils
   installation does not have the same name as in the setuptools installation:
@@ -14,6 +15,7 @@ Changelog
 - Added a changelog (CHANGES file)
 - Added maintainer information
 - Linux-style end-of-line characters
+- Added more classifiers and platform information
 
 
 2.4.6.1

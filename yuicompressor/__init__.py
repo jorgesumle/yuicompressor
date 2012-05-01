@@ -2,7 +2,7 @@ import sys
 import os
 import subprocess
 
-__version__ = '2.4.6.1'
+__version__ = '2.4.7'
 
 
 def get_jar_filename():
