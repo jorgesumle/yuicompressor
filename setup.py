@@ -58,10 +58,14 @@ setup(
     package_data={
         '': ["*.jar"]
     },
+    platforms='any',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Site Management',
     ],
     **additional_setup_options
