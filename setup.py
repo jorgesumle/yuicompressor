@@ -52,7 +52,7 @@ setup(
     maintainer='Sylvain Prat',
     maintainer_email='sylvain.prat@gmail.com',
     version=find_version('yuicompressor', '__init__.py'),
-    url="http://pypi.python.org/pypi/yuicompressor",
+    url="https://bitbucket.org/sprat/yuicompressor",
     license='BSD',
     packages=['yuicompressor'],
     package_data={
