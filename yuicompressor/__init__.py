@@ -2,7 +2,7 @@ import sys
 import os
 import subprocess
 
-__version__ = '2.4.6'
+__version__ = '2.4.6.1'
 
 
 def get_jar_filename():
@@ -11,6 +11,11 @@ def get_jar_filename():
     return os.path.join(this_dir, "yuicompressor.jar")
 
 
+def run(*args):
+    cmd_args = ["java", "-jar", get_jar_filename()] + list(args)
+    return subprocess.call(cmd_args, shell=True)
+
+
 def main():
-    cmd_args = ["java", "-jar", get_jar_filename()] + sys.argv[1:]
-    subprocess.call(cmd_args, shell=True)
+    exit_code = run(*sys.argv[1:])
+    sys.exit(exit_code)

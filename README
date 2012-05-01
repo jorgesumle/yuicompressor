@@ -66,9 +66,8 @@ even for standalone use, e.g. having ``yuicompressor`` in your
 ``PATH``.
 
 
---------
 Versions
---------
+========
 
 Version ``X.Y.Z`` of this package will bundle the corresponding
 version of the compressor.

@@ -1,0 +1,35 @@
+Changelog
+=========
+
+2.x.x
+-------
+
+- ``yuicompressor`` does not require setuptools anymore: it's also installable
+  with pure distutils. However, the executable script in the pure distutils
+  installation does not have the same name as in the setuptools installation:
+  it is named ``yuicompressor_run.py`` instead of ``yuicompressor`` due to
+  import restriction and windows shebang incompatibility.
+- Added a ``run`` method in the ``yuicompressor`` module allowing us to run
+  the tool with custom arguments from python source code.
+- Added a changelog (CHANGES file)
+- Added maintainer information
+- Linux-style end-of-line characters
+
+
+2.4.6.1
+-------
+
+- Include ``*.jar`` in manifest
+
+
+2.4.6
+-----
+
+- Update ``yuicompressor.jar`` to 2.4.6
+- Update contact email
+
+
+2.4.2
+-----
+
+- Initial release

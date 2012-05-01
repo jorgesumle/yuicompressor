@@ -1,3 +1,5 @@
+include README
+include CHANGES
 include LICENSE
 include LICENSE.YUI
 recursive-include yuicompressor *.jar
