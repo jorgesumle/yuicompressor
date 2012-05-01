@@ -13,7 +13,8 @@ Changelog
 - Added a ``run`` method in the ``yuicompressor`` module allowing us to run
   the tool with custom arguments from python source code.
 - Added a changelog (CHANGES file)
-- Added maintainer information
+- Added maintainer information; changed the package URL to point to the
+  associated bitbucket repository
 - Linux-style end-of-line characters
 - Added more classifiers and platform information
 
