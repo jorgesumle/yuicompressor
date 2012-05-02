@@ -13,7 +13,7 @@ def get_jar_filename():
 
 def run(*args):
     cmd_args = ["java", "-jar", get_jar_filename()] + list(args)
-    return subprocess.call(cmd_args, shell=True)
+    return subprocess.call(cmd_args)
 
 
 def main():
