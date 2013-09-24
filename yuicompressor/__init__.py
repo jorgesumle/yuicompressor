@@ -2,13 +2,14 @@ import sys
 import os
 import subprocess
 
-__version__ = '2.4.7'
+__version__ = '2.4.8'
 
 
 def get_jar_filename():
     """Return the full path to the YUI Compressor Java archive."""
+    filename = "yuicompressor-%s.jar" % __version__
     this_dir = os.path.realpath(os.path.dirname(__file__))
-    return os.path.join(this_dir, "yuicompressor.jar")
+    return os.path.join(this_dir, filename)
 
 
 def run(*args):
