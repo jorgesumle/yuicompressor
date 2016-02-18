@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.4.8
+-----
+
+- Updated ``yuicompressor.jar`` to 2.4.8
+
+
 2.4.7
 -----
 
