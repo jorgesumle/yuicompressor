@@ -40,7 +40,7 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 
-long_description = '\n\n'.join(read(f) for f in ('README', 'CHANGES'))
+long_description = '\n\n'.join(read(f) for f in ('README.rst', 'CHANGES.rst'))
 
 
 setup(
@@ -52,7 +52,7 @@ setup(
     maintainer='Sylvain Prat',
     maintainer_email='sylvain.prat@gmail.com',
     version=find_version('yuicompressor', '__init__.py'),
-    url="https://bitbucket.org/sprat/yuicompressor",
+    url="https://github.com/sprat/yuicompressor",
     license='BSD',
     packages=['yuicompressor'],
     package_data={
